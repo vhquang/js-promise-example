@@ -16,6 +16,11 @@ npm install -g bower
 npm install -g gulp gulp-cli
 ```
 
+Then install package dependencies:
+```bash
+npm install && bower install
+```
+
 ## Run the app
 
 The javascript app can be run with

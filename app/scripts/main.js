@@ -4,3 +4,7 @@ function outputJson(title, data) {
     var pre = '<pre>' + h4 + code + '</pre>';
     $('#output').append(pre);
 }
+
+function clearOutput() {
+    $('#output').text('');
+}
